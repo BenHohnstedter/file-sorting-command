@@ -1,0 +1,13 @@
+# Zeilenenden im Repository vereinheitlichen (LF), beim Auschecken
+# plattformüblich zurückwandeln.
+* text=auto
+
+# Batch-Dateien MÜSSEN CRLF behalten. Mit reinen LF-Zeilenenden kann
+# cmd.exe je nach Konstellation aus dem Tritt geraten - und diese beiden
+# Dateien sind die einzige Bedienoberfläche des Programms.
+*.bat text eol=crlf
+
+# Reine Textdateien
+*.py   text eol=lf
+*.md   text eol=lf
+*.txt  text eol=lf

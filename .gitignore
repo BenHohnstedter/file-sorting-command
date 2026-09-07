@@ -1,0 +1,29 @@
+# --- Was das Programm zur Laufzeit selbst anlegt ------------------------
+# Diese Ordner entstehen beim ersten Start und enthalten private Fotos.
+/Unsortierte Dateien/
+/Bilder/
+/Videos/
+/Zum Durchsehen/
+
+# Das Protokoll enthält lokale Pfade und gehört niemandem außer dem PC.
+sortier-log.txt
+
+# --- Python -------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+
+# --- Windows ------------------------------------------------------------
+Thumbs.db
+ehthumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# --- Editoren -----------------------------------------------------------
+.vscode/
+.idea/
+*.swp
+*~
